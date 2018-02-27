@@ -80,3 +80,78 @@ footer h6 span{
 	padding-right: 10px;
 	margin-right: 20px;
 }
+.cards{
+	margin: 100px 0;
+}
+.cards .container .card{
+	display: inline-block;
+	width: 300px;
+	border: 2px solid #aba2a2;
+	padding: 10px;
+	margin-right: 20px;
+}
+.cards .container .card .img-card{
+	width: 270px;
+}
+.cards .container .card .img-card img{
+	width: 100%;
+	margin-top: 15px;
+	margin-left: 15px;
+	/*border-radius: 50px 30px;*/
+	border-top-left-radius:40px;
+	border-bottom-right-radius: 40px;                  	
+}
+.cards .container .card .card-body{
+	margin-left: 15px;
+}
+.cards .container .card .card-body h5{
+	font-size: 20px;
+	margin:15px 0;
+}
+.cards .container .card .card-body p{
+	color: #2c2525;
+}
+.card-v{
+	margin: 100px 0;
+
+}
+ .card-v .container .card{
+ 	width:550px;
+ 	border: 2px solid #aba2a2;
+ 	padding: 10px;
+
+ }
+  .card-v .container .card .img-card{
+  	width: 250px;
+  	display: inline-block;
+  	float: left;
+  	/*position: fixed;*/
+
+  }
+  .card-v .container .card .img-card img{
+  	width: 100%;
+  	border-radius: 50%;
+  }  
+  .card-v .container .card .card-body{
+  	width: 270px;
+  	display: inline-block;
+  	margin-left: 20px;
+  	margin-bottom: 20px;
+  	padding-top: 30px;
+  }  
+  .card-v .container .card .card-body h5{
+  	font-size: 18px;
+  	margin-bottom: 10px;
+  	font-weight: bold;
+  	text-transform: uppercase;
+  }  
+   .card-v .container .card .card-body p{
+   	color: #2c2525;
+   } 
+.bac{
+
+	background: url(../img/011.jpg) fixed center no-repeat ;
+	min-height: 600px;
+	/*background-repeat: no-repeat;*/
+	background-size: cover;
+}   
