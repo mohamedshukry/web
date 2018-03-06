@@ -148,6 +148,79 @@ footer h6 span{
    .card-v .container .card .card-body p{
    	color: #2c2525;
    } 
+.demo {
+	background-color: #eee;
+	height: 600px;
+}
+.demo .btn{
+	width: 100px;
+	height: 40px;
+	background-color: #6a6a6a;
+	color: white;
+	border: 0;
+	transition: all 1.5s;
+}
+.demo .text-demo{
+	margin: 30px 0;
+	display: none;
+}  
+.demo .btn:hover{
+	background-color: #e6e6e6;
+	border: 1px solid black;
+	color: black;
+}
+.demo .btn:hover .text-demo{
+	display: block;
+}
+.test-float{
+	background-color: black;
+	color: white;
+}
+.test-float .one{
+	width: 30%;
+	background-color: yellow;
+	float: left;
+}
+.test-float .two{
+	width: 30%;
+	background-color: green;
+	float: left;
+}
+.test-float .last{
+	width: 30%;
+	background-color: red;
+	float: left;
+}
+.test-postion{
+	position: relative;
+	margin:30px;
+	height: 400px;
+}
+.test-postion .postion-left{
+	position: absolute;
+	left: 0;
+	top: 50%;
+}
+.test-postion .postion-right{
+	position: absolute;
+	right: 0;
+	top: 50%;
+}
+.test-postion .postion-top{
+	position: absolute;
+	top: 0;
+	left: 50%;
+}
+.test-postion .postion-bottom{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+}
+.div-text{
+	width: 300px;
+	height: 50px;
+	overflow: scroll;
+}
 .bac{
 
 	background: url(../img/011.jpg) fixed center no-repeat ;
@@ -155,3 +228,11 @@ footer h6 span{
 	/*background-repeat: no-repeat;*/
 	background-size: cover;
 }   
+.social{
+	width: 50px;
+	background-color: black;
+	color: white;
+	position: fixed;
+	top: 50%;
+	left: 0;
+}
