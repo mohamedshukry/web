@@ -236,3 +236,64 @@ footer h6 span{
 	top: 50%;
 	left: 0;
 }
+table{
+	/*background-color:red;*/
+	 /*border: 1px solid #6a6a6a;*/
+	 margin: 20px;
+	 width: 96%;
+
+}
+table tr{
+    height: 70px;
+    text-align: center;
+    border:1px solid black;
+}
+table tr th{
+	background-color: #f3a545;
+	border: 1px solid  #f3a545;
+	outline: 0;
+	font-size: 20px;
+}
+table tr td {
+	background-color: #22f7f7;
+	font-size: 18px;
+	border-bottom: 3px solid red;
+
+}
+
+.my-Table{
+	border: 3px solid red;
+	 box-shadow: 0px 10px 9px 3px #d4d4d4;
+}
+.my-Table  tr th{
+	background-color: yellow;
+}
+.text-teble{
+	background-color: black;
+
+}
+.text-teble p{
+	color: #fff;
+}
+.text-teble .left , .right{
+	display: inline-block;
+	width: 45%;
+}
+.text-teble .right{
+	float: right;
+}
+.demo-trantions{
+	margin: 100px;
+}
+.test-trantions{
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	
+
+
+}
+.test-trantions:hover{
+	transform: scale(2.5 ,1.5);
+	transition: all .7s ;
+}
