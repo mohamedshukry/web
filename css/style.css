@@ -5,295 +5,88 @@
 .container{
 	width: 1070px;
 	margin-left: 80px;
-}
-header {
-	background-color: #787878;
-	height: 100px;
-
-}
-header nav ul .logo{
-	width: 150px;
-	margin-left:0px; 
-}
-header nav ul li{
-	list-style-type: none;
-	display: inline-block;
-	margin-left: 90px;
-	
-}
-header nav ul li a{
-	color: white;
-	font-size: 30px;
-	line-height: 20px;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-.intro{
-	background: linear-gradient(rgba( 0,0,0,.7 ), rgba(0,0,0,.7)), url(../img/2.jpg);
-	height: 700px;
-	padding-top: 200px;
-}
-.intro h2{
-	color: white;
-	font-size: 25px;
-	text-transform: uppercase;
-	/*text-align: center;*/
-	width: 351px;
-	border-top: 2px solid white;
-	border-bottom: 2px solid white;
-	padding: 10px 0px;
-	margin-left: 35%;
-}
-.intro2 {
-		background-color: #eee;
-		padding: 50px 0;
-}
-.intro2 .article1{
- display: inline;
- width: 400px;
-}
-.intro2 .article1 p{
-	width: 400px;
-}
-.intro2 .aside{
-	display: inline;
-	float: right;
-	width: 400px;
-	margin-left: 50px;
-	line-height: 40px;
-	margin-top: -146px;
-}
-footer{
-	/*margin-top: 100px;*/
-	background-color: #787878;
-	height: 100px;
-	color: white;
-}
-footer h6{
-	font-size: 20px;
-	text-align: center;
-	line-height: 100px;
-}
-footer h6 span{
-	color: #c21522;
-	border-right: 3px solid #c21522 ;
-	padding-right: 10px;
-	margin-right: 20px;
-}
-.cards{
-	margin: 100px 0;
-}
-.cards .container .card{
-	display: inline-block;
-	width: 300px;
-	border: 2px solid #aba2a2;
-	padding: 10px;
-	margin-right: 20px;
-}
-.cards .container .card .img-card{
-	width: 270px;
-}
-.cards .container .card .img-card img{
-	width: 100%;
-	margin-top: 15px;
-	margin-left: 15px;
-	/*border-radius: 50px 30px;*/
-	border-top-left-radius:40px;
-	border-bottom-right-radius: 40px;                  	
-}
-.cards .container .card .card-body{
-	margin-left: 15px;
-}
-.cards .container .card .card-body h5{
-	font-size: 20px;
-	margin:15px 0;
-}
-.cards .container .card .card-body p{
-	color: #2c2525;
-}
-.card-v{
-	margin: 100px 0;
-
-}
- .card-v .container .card{
- 	width:550px;
- 	border: 2px solid #aba2a2;
- 	padding: 10px;
-
- }
-  .card-v .container .card .img-card{
-  	width: 250px;
-  	display: inline-block;
-  	float: left;
-  	/*position: fixed;*/
-
-  }
-  .card-v .container .card .img-card img{
-  	width: 100%;
-  	border-radius: 50%;
-  }  
-  .card-v .container .card .card-body{
-  	width: 270px;
-  	display: inline-block;
-  	margin-left: 20px;
-  	margin-bottom: 20px;
-  	padding-top: 30px;
-  }  
-  .card-v .container .card .card-body h5{
-  	font-size: 18px;
-  	margin-bottom: 10px;
-  	font-weight: bold;
-  	text-transform: uppercase;
-  }  
-   .card-v .container .card .card-body p{
-   	color: #2c2525;
-   } 
-.demo {
-	background-color: #eee;
-	height: 600px;
-}
-.demo .btn{
-	width: 100px;
-	height: 40px;
-	background-color: #6a6a6a;
-	color: white;
-	border: 0;
-	transition: all 1.5s;
-}
-.demo .text-demo{
-	margin: 30px 0;
-	display: none;
-}  
-.demo .btn:hover{
-	background-color: #e6e6e6;
-	border: 1px solid black;
-	color: black;
-}
-.demo .btn:hover .text-demo{
 	display: block;
 }
-.test-float{
-	background-color: black;
-	color: white;
-}
-.test-float .one{
-	width: 30%;
-	background-color: yellow;
-	float: left;
-}
-.test-float .two{
-	width: 30%;
-	background-color: green;
-	float: left;
-}
-.test-float .last{
-	width: 30%;
-	background-color: red;
-	float: left;
-}
-.test-postion{
-	position: relative;
-	margin:30px;
-	height: 400px;
-}
-.test-postion .postion-left{
-	position: absolute;
-	left: 0;
-	top: 50%;
-}
-.test-postion .postion-right{
-	position: absolute;
-	right: 0;
-	top: 50%;
-}
-.test-postion .postion-top{
-	position: absolute;
-	top: 0;
-	left: 50%;
-}
-.test-postion .postion-bottom{
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-}
-.div-text{
-	width: 300px;
-	height: 50px;
-	overflow: scroll;
-}
-.bac{
 
-	background: url(../img/011.jpg) fixed center no-repeat ;
-	min-height: 600px;
-	/*background-repeat: no-repeat;*/
-	background-size: cover;
-}   
-.social{
-	width: 50px;
-	background-color: black;
-	color: white;
-	position: fixed;
-	top: 50%;
-	left: 0;
-}
-table{
-	/*background-color:red;*/
-	 /*border: 1px solid #6a6a6a;*/
-	 margin: 20px;
-	 width: 96%;
-
-}
-table tr{
-    height: 70px;
-    text-align: center;
-    border:1px solid black;
-}
-table tr th{
-	background-color: #f3a545;
-	border: 1px solid  #f3a545;
-	outline: 0;
-	font-size: 20px;
-}
-table tr td {
-	background-color: #22f7f7;
-	font-size: 18px;
-	border-bottom: 3px solid red;
-
-}
-
-.my-Table{
-	border: 3px solid red;
-	 box-shadow: 0px 10px 9px 3px #d4d4d4;
-}
-.my-Table  tr th{
-	background-color: yellow;
-}
-.text-teble{
-	background-color: black;
-
-}
-.text-teble p{
-	color: #fff;
-}
-.text-teble .left , .right{
-	display: inline-block;
-	width: 45%;
-}
-.text-teble .right{
-	float: right;
-}
-.demo-trantions{
-	margin: 100px;
-}
-.test-trantions{
-	width: 50px;
-	height: 50px;
-	background-color: red;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
 	
+} 
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+	
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 
 }
-.test-trantions:hover{
-	transform: scale(2.5 ,1.5);
+
+/* Orientation: Portrait / Landscape */
+@media only screen and (orientation: landscape) {
+   
+}
+.card {
+	position: relative;
+	width: 300px;
+	overflow: hidden;
+}
+.card img{
+	width: 300px;
+}
+.card .ovarlay{
+	position: absolute;
+	width: 0px;
+	height: 300px;
+	background-color:rgba(0 , 0 ,0 ,.7);
+	top: 0;
 	transition: all .7s ;
+}
+.card .ovarlay button{
+	position: absolute;
+	bottom: 30%;
+	right: 30%;
+	transition: all .1s;
+	background-color: #eee;
+	border-radius: 5px;
+	border: 1px solid white;
+	padding: 10px;
+	display: none;
+}
+.card:hover .ovarlay{
+	width: 300px;
+}
+.card:hover button{
+	display: block;
+
+}
+
+.team .d-flex {
+	display: flex;
+	justify-content: space-between;
+}
+.content-link{
+	text-align: center;
+	padding-top: 30px;
+}
+.content-link a{
+	width: 150px;
+	height: 40px;
+	background-color: #6a6a6a;
+	padding: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
 }
